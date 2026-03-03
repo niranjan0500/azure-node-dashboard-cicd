@@ -9,7 +9,7 @@ const APP_VERSION = "1.0.0";
 
 app.get("/", (req, res) => {
   res.send(`
-    <h1>🚀 Azure CI/CD Deployment Dashboard</h1>
+    <h1>Node Dashboard CI/CD Working 🚀</h1>
     <hr/>
     <p><b>Status:</b> Running Successfully ✅</p>
     <p><b>Version:</b> ${APP_VERSION}</p>
